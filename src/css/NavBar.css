@@ -1,0 +1,52 @@
+/* Variables */
+
+:root {
+	--mainGreen: #7cfc00;
+	--mainWhite: #ffffff;
+	--mainYellow: #fceb00;
+	--text: #3d3d3d;
+}
+
+.navBar {
+	background-color: var(--mainYellow);
+	padding: 20px;
+}
+
+.navFlex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navLeft {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	background: var(--mainYellow);
+	color: #00af00;
+	padding: 10px;
+	border: 3px ridge var(--mainGreen);
+	/* border: none; */
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+}
+
+button:hover,
+button:focus {
+	background: var(--mainGreen);
+}
+
+button i {
+	color: #00af00;
+	margin-right: 10px;
+}
+
+.logo {
+	background-color: transparent;
+	width: 80px;
+	height: 80px;
+}
