@@ -10,6 +10,7 @@
 .navBar {
 	background-color: var(--mainYellow);
 	padding: 20px;
+	border-bottom: var(--mainGreen) 3px ridge;
 }
 
 .navFlex {
@@ -40,8 +41,7 @@ button:focus {
 	background: var(--mainGreen);
 }
 
-button i {
-	color: #00af00;
+button .navCart {
 	margin-right: 10px;
 }
 
@@ -49,4 +49,8 @@ button i {
 	background-color: transparent;
 	width: 80px;
 	height: 80px;
+}
+
+i {
+	color: #00af00;
 }

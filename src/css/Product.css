@@ -4,10 +4,46 @@
 	margin: 40px 20px;
 }
 
+.card {
+	background-color: rgba(0, 0, 0, 0.212);
+	padding: 10px;
+	box-shadow: transparent;
+	transform: scale(1);
+	transition: all 0.3s linear;
+}
+
+.card:hover,
+.card:focus {
+	box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.6);
+	transform: scale(1.01);
+}
+
 .productImg {
 	width: 100%;
+	position: relative;
+	overflow: hidden;
 }
 
 .productImg img {
 	width: 100%;
+	transform: scale(0.8);
+}
+
+.productImg img:hover,
+.productImg img:focus {
+	transform: scale(1);
+}
+
+button p,
+button i {
+	font-size: 1.4rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+.cardFooter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }

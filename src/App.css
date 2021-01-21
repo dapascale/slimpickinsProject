@@ -249,7 +249,7 @@ body {
 body,
 button {
 	font-family: "Inconsolata", monospace;
-	background-color: var(--mainGreen);
+	background-color: var(--mainWhite);
 }
 
 .wrapper {
@@ -263,7 +263,7 @@ h1 {
 	font-size: 3rem;
 	text-transform: lowercase;
 	width: max-content;
-	margin: 100px auto;
+	margin: 0px auto;
 }
 
 h2,
@@ -278,8 +278,10 @@ span,
 li,
 input,
 select {
+	font-family: "Inconsolata", monospace;
 	color: var(--text);
 	font-size: 2rem;
+	margin: 0;
 }
 
 .textTitle {

@@ -22,7 +22,7 @@ class NavBar extends Component {
                         </div>
                             <Link to="/cart" className="cart">
                                 <button>
-                                    <i className="fas fa-shopping-cart"></i>
+                                    <i className="fas fa-shopping-cart navCart"></i>
                                     stroller
                                 </button>
                             </Link>
